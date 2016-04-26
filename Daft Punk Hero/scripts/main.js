@@ -4,7 +4,7 @@ var audio = new Audio();
 function play(){
   audio.src = "media/Daft Punk.mp3"
   audio.volume = 0.7;
-  audio.play();
+  //audio.play();
 }
 
 function pause() {
