@@ -1,12 +1,3 @@
-a{
-  text-decoration:none;
-  color: #F2E8C9;
-}
-
-a:hover{
-  color: rgb(64, 64, 64);
-}
-
 body{
   background-color: rgb(48, 48, 48);
   margin: auto;
@@ -47,9 +38,10 @@ table{
 
 td{
   vertical-align: middle;
-  border-left: 2px solid white;
-  border-right: 2px solid white;
+  border-left: 2px solid;
+  border-right: 2px solid;
   border-color: rgb(48, 48, 48);
+  color: #F2E8C9;
   font-size: 2em;
   font-family: Sail;
   transition: 0.5s;
@@ -57,4 +49,5 @@ td{
 
 td:hover{
   background-color: #F2E8C9;
+  color: rgb(64, 64, 64);
 }
