@@ -51,3 +51,11 @@ td:hover{
   background-color: #F2E8C9;
   color: rgb(64, 64, 64);
 }
+
+main{
+  text-align: center;
+}
+
+img{
+  height: 89%;
+}
