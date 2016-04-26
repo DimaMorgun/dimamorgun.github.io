@@ -1,0 +1,53 @@
+body{
+  background-color: rgb(48, 48, 48);
+  margin: auto;
+  cursor: url(../media/links_c.cur), pointer;
+}
+
+header{
+  background-color: rgb(64, 64, 64);
+  height: 50px;
+  width: 100%;
+  color: #F2E8C9;
+  text-align: center;
+  position: fixed;
+  top: 0;
+}
+
+main{
+  margin: 50px 0 25px 0;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+}
+
+footer{
+  background-color: rgb(64, 64, 64);
+  height: 25px;
+  width: 100%;
+  color: #F2E8C9;
+  text-align: right;
+  font-family: Sail;
+  position: fixed;
+  bottom: 0;
+}
+
+table{
+  height: 100%;
+  width: 100%;
+}
+
+td{
+  vertical-align: middle;
+  border-left: 2px solid white;
+  border-right: 2px solid white;
+  border-color: rgb(48, 48, 48);
+  font-size: 2em;
+  font-family: Sail;
+  transition: 0.5s;
+}
+
+td:hover{
+  background-color: #F2E8C9;
+  color: rgb(64, 64, 64);
+}

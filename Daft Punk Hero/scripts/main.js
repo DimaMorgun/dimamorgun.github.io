@@ -2,6 +2,8 @@ var count = 0;
 var audio = new Audio();
 
 function play(){
+  audio.src = "media/Daft Punk.mp3"
+  audio.volume = 0.7;
   audio.play();
 }
 
@@ -14,5 +16,5 @@ function clear(){
 }
 
 window.onload = function() {
-    alert( 'Документ и все ресурсы загружены' );
+  play();
   };
