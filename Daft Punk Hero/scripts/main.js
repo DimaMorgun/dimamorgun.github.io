@@ -39,11 +39,15 @@ window.onkeyup = function(e){
       audio.pause();
       status = 0;
       document.getElementById("play").value = 'Play';
+      document.getElementById("equ1").src = './media/equalizer_stop.gif';
+      document.getElementById("equ2").src = './media/equalizer_stop.gif';
     }
     else{
       audio.play();
       status = 1;
       document.getElementById("play").value = 'Stop';
+      document.getElementById("equ1").src = './media/equalizer.gif';
+      document.getElementById("equ2").src = './media/equalizer.gif';
     }
   }
 }
