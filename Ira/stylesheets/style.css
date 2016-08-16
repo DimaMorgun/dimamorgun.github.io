@@ -16,6 +16,7 @@ h1{
 
 h1:hover{
   font-family: 'Sail', cursive;
+  font-size: 650%;
   color: rgba(209, 61, 122, 1);
   cursor: pointer;
 }
@@ -27,7 +28,7 @@ img{
 }
 
 img:hover{
-  width: 25%;
-  height: 25%;
+  width: 30%;
+  height: 30%;
   cursor: pointer;
 }
