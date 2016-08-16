@@ -10,7 +10,7 @@ body, header{
 h1{
   transition: 2.5s;
   font-family: 'Sail', cursive;
-  font-size: 750%;
+  font-size: 600%;
   color: rgba(209, 61, 122, 0.3);
 }
 
@@ -22,12 +22,12 @@ h1:hover{
 
 img{
   transition: 1.5s;
-  width: 25%;
-  height: 25%;
+  width: 20%;
+  height: 20%;
 }
 
 img:hover{
-  width: 35%;
-  height: 35%;
+  width: 25%;
+  height: 25%;
   cursor: pointer;
 }
