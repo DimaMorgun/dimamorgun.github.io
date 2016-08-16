@@ -1,0 +1,33 @@
+body, header{
+  margin: auto;
+  height: 100%;
+  width: 100%;
+  background-image: url(../blur_wallpaper_hd_desktop_background_download_5.jpg);
+  background-size: 100%;
+  text-align: center;
+}
+
+h1{
+  transition: 2.5s;
+  font-family: 'Sail', cursive;
+  font-size: 750%;
+  color: rgba(209, 61, 122, 0.3);
+}
+
+h1:hover{
+  font-family: 'Sail', cursive;
+  color: rgba(209, 61, 122, 1);
+  cursor: pointer;
+}
+
+img{
+  transition: 1.5s;
+  width: 25%;
+  height: 25%;
+}
+
+img:hover{
+  width: 35%;
+  height: 35%;
+  cursor: pointer;
+}

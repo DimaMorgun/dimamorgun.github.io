@@ -2,6 +2,7 @@ body, html{
   background-color: rgb(48, 48, 48);
   margin: auto;
   height: 100%;
+  width: 100%;
   cursor: url(../media/links_c.cur), pointer;
 }
 
@@ -12,17 +13,17 @@ header{
 }
 
 main{
-  height:90%;
+  height: 90%;
   width: 100%;
   text-align: center;
 }
 
 footer{
   background-color: rgb(48, 48, 48);
-  height: 3%;
   color: #F2E8C9;
   text-align: right;
   font-family: Sail;
+  font-size: 15px;
 }
 
 table{
@@ -36,7 +37,7 @@ td{
   border-right: 2px solid;
   border-color: rgb(48, 48, 48);
   color: #F2E8C9;
-  font-size: 2em;
+  font-size: 25px;
   font-family: Sail;
   transition: 0.5s;
 }
@@ -81,27 +82,22 @@ td:hover{
 }
 
 input{
-  margin: 3px;
+  margin: 5px;
   background-color: rgb(64, 64, 64);
   border: 2px solid rgb(48, 48, 48);
   border-radius: 5px;
   color: #F2E8C9;
-  font-size: 2em;
+  font-size: 30px;
   font-family: Roboto;
 }
 
 input:hover{
-  margin: 3px;
+  margin: 5px;
   background-color: #F2E8C9;
   border: 2px solid rgb(48, 48, 48);
   border-radius: 5px;
   color: rgb(64, 64, 64);
-  font-size: 2em;
-}
-
-img{
-  width: 49%;
-  height: 75%;
+  font-size: 30px;
 }
 
 #play{
