@@ -1,0 +1,30 @@
+.header {
+    margin: 2%;
+    border-radius: 25px;
+    background-color: ivory;
+    border: 2px solid black;
+    text-align: center;
+}
+
+.block {
+    background-color: ivory;
+    border-radius: 25px 0 0 25px;
+    border: 2px solid black;
+    width: 48%;
+    height: 350px;
+    overflow: auto;
+    display: inline-block;
+}
+
+.line {
+    margin: 2% 6%;
+    padding: 5px 0;
+    width: 20%;
+    height: 100%;
+    display: inline-block;
+}
+
+.item {
+    margin: 10px 0;
+    width: 100%;
+}

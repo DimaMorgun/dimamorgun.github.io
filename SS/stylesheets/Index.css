@@ -1,0 +1,36 @@
+.main-field{
+    background-color: lightblue;
+    margin: 0 auto;
+    font-family: 'Comfortaa', cursive;
+    cursor:url('https://github.com/DimaMorgun/NureWeb/blob/master/Lab%202/media/my-mouse-pointer.cur?raw=true'), auto;
+    transition: 5s;
+}
+.main-field:hover{
+    background-color: teal;
+    width: 80%;
+}
+.bordered{
+    padding: 5px;
+    border: 5px solid gray;
+    border-radius: 50px;
+    width: 750px;
+    height: 500px;
+    text-align: center
+}
+li{
+    padding: 30px 0;
+}
+p{
+    font-size: 25px;
+    color: red;
+}
+a{
+    font-weight: bold;
+}
+a:visited{
+    color: darkred;
+}
+a:hover{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: yellow;
+}

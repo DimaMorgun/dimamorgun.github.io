@@ -1,0 +1,68 @@
+h1 {
+    background-color: #daf7a6;
+    border-radius: 25px;
+}
+
+h2 {
+    background-color: #ff5733;
+    border-radius: 10px;
+}
+
+h3 {
+    background-color: #581845;
+    border-radius: 5px;
+    color: #daf7a6;
+}
+
+.M {
+    height: 50px;
+}
+
+.main-field {
+    background-color: lightblue;
+    font-family: Courier New, Courier, monospace;
+    cursor: url('https://github.com/DimaMorgun/NureWeb/blob/master/Lab%202/media/my-mouse-pointer.cur?raw=true'), auto;
+}
+
+@media screen and (min-width: 1025px) {
+    .pc {
+        background-color: ivory;
+    }
+    .table {
+        background-color: black;
+        text-decoration: line-through;
+    }
+    .phone {
+        background-color: black;
+        text-decoration: line-through;
+    }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 480px) {
+    .pc {
+        background-color: black;
+        text-decoration: line-through;
+    }
+    .table {
+        background-color: ivory;
+    }
+    .phone {
+        background-color: black;
+        text-decoration: line-through;
+    }
+}
+
+@media screen and (max-width: 479px) {
+    .pc {
+        background-color: black;
+        text-decoration: line-through;
+    }
+    .table {
+        background-color: black;
+        text-decoration: line-through;
+    }
+    .phone {
+        background-color: ivory;
+        text-decoration: none;
+    }
+}

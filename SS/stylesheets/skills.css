@@ -1,0 +1,37 @@
+.main-field {
+    background-color: lightblue;
+    font-family: Courier New, Courier, monospace;
+    cursor: url('https://github.com/DimaMorgun/NureWeb/blob/master/Lab%202/media/my-mouse-pointer.cur?raw=true'), auto;
+}
+
+.main_part{
+    background-color:#3498db;
+    width:25%;
+    float:left;
+    border-radius:25px 25px 25px 25px;
+    text-align:center;
+}
+
+.front{
+    background-color:#e74c3c;
+    width:25%;
+    float: left;;
+    border-radius:25px 25px 25px 0;
+    text-align:center;
+}
+
+.js{
+    background-color:#1abc9c;
+    width:25%;
+    float:left;
+    border-radius:25px 25px 0 0;
+    text-align:center;
+}
+
+.other{
+    background-color:#e67e22;
+    width:25%;
+    float: left;;
+    border-radius:25px 25px 25px 25px;
+    text-align:center;
+}
