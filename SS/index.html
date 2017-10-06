@@ -5,33 +5,54 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <script src="./scripts/main.js" type="text/javascript"></script>
-    <link rel="stylesheet" href="text.css">
+    <link rel="stylesheet" href="./stylesheets/simple-screen/general.css">
+    <link rel="stylesheet" href="./stylesheets/simple-screen/windows.css">
+    <link rel="stylesheet" href="./stylesheets/simple-screen/controls.css">
+    <link rel="stylesheet" href="./stylesheets/simple-screen/views.css">
+    <script src="./scripts/general.js" type="text/javascript"></script>
+    <script src="./scripts/movement.js" type="text/javascript"></script>
+    <script src="./scripts/interact.js" type="text/javascript"></script>
+    <script src="./scripts/content-storage.js" type="text/javascript"></script>
     <title>Document</title>
 </head>
 
-<body>
-     <div class="window-border" id="border" onmousedown="downB(event)" onmouseup="upB(event)" onmousemove="moveB(event)" onmouseover="test(event)" onmouseout="ttest(event)">
-        <div class="border-content-left">
-            <img src="./media/small_windows.icon.svg" alt="Windows icon" class="small-icon">
+<body id="screen" onscroll="bodyScrool(event)">
+    <div class="menu" id="footer-panel">
+        <div class="start">
+            <img src="./media/small_windows.icon.svg" alt="Windows icon" class="small-icon"><b>start</b>
         </div>
-        <div class="border-content-right">
-            <button class="small_button default">_</button>
-            <button class="small_button default">⬒</button>
-            <button class="small_button danger">X</button>
+        <div class="tray">
+            <div class="circle">
+                <div class="angle"></div>
+            </div>
         </div>
-        <div class="window-field" id="folder">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus consectetur optio, quasi, excepturi dignissimos laborum impedit magnam modi explicabo quo ut debitis aspernatur amet, perspiciatis qui corrupti aperiam voluptatum omnis.
+        <div class="tool-bar">
+            <img src="./media/volume.svg" alt="Music volume">
+            <div id="timer"></div>
         </div>
     </div>
-
-    <div id="container">
-        <div id="inner">
-            <div class="child"></div>
-            <div class="child"></div>
-            <div class="child"></div>
-        </div>
+    <div id="context">
+        <button onmousedown="addFolder(event)">New Folder</button>
+        <button onmousedown="addFile(event)">New File</button>
+        <button onmousedown="addPicture(event)">New Picture</button>
+        <hr>
+        <button>Rename</button>
+        <hr>
+        <button>Delete</button>
     </div>
 </body>
 
 </html>
+
+<!-- <div class="window-border" id="border" onmousedown="downB(event)" onmouseup="upB(event)" onmousemove="moveB(event)">
+    <div class="border-content-left">
+        <img src="./media/small_windows.icon.svg" alt="Windows icon" class="small-icon">
+    </div>
+    <div class="border-content-right">
+        <button class="small_button default">_</button>
+        <button class="small_button default">⬒</button>
+        <button class="small_button danger" id="border" onmousedown="closeWindow(event)">X</button>
+    </div>
+    <div class="window-field" id="folder">
+    </div>
+</div> -->

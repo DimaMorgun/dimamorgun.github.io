@@ -1,0 +1,46 @@
+.window-border{
+    background-color: rgb(1, 87, 234);
+    border: 8px solid rgb(1, 87, 234);
+    border-radius: 5px;
+    position: absolute;
+}
+
+.window-field{
+    width: 100%;
+    height: calc(100% - 28px);
+    background-color: rgb(255, 255, 245);
+    overflow-y: auto;
+}
+
+.border-content-left{
+    width: 24px;
+    font-size: 16px;
+    display: inline-block;
+}
+
+.border-content-right{
+    float: right;
+    display: inline-block;
+}
+
+#context{
+    background-color: rgb(242, 242, 242);
+    width: 90px;
+    padding: 5px;
+    display: none;
+    z-index: 100;
+    position: absolute;
+    }
+
+#context>button{
+    background-color: rgb(242, 242, 242);
+    margin: 1px 0;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none; 
+}
+
+#context>button:hover{
+    background-color: rgb(217, 217, 217);
+}
