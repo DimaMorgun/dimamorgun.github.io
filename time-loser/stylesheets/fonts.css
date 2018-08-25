@@ -1,0 +1,47 @@
+/* header */
+
+header section {
+    color: #333333;
+    text-align: center;
+    font-family: 'Lobster Two', cursive;
+    font-weight: bold;
+    font-size: 3em;
+    letter-spacing: 10px;
+    user-select: none;
+}
+
+header section span {
+    color: #e34713;
+}
+
+/* main section */
+
+main {
+    color: #333333;
+    font-family: 'Kumar One', cursive;
+    letter-spacing: 5px;
+}
+
+main .header section {
+    text-align: center;
+}
+
+main .content .day-summary .date {
+    text-align: center;
+}
+
+main .content .day-summary .schedule section {
+    text-align: center;
+}
+
+/* footer */
+
+footer aside {
+    font-family: 'Gloria Hallelujah', cursive;
+}
+
+footer section div {
+    color: #f3f3f3;
+    font-family: 'Jua', sans-serif;
+    user-select: none;
+}

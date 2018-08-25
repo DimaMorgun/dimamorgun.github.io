@@ -1,0 +1,22 @@
+footer section div {
+    padding: 5px 10px;
+    background-color: #e34713;
+    border-radius: 10px;
+    color: #f3f3f3;
+    outline: none;
+    cursor: pointer;
+    box-shadow: 2.5px 2.5px 5px 0px rgba(0, 0, 0, 0.5);
+    border: 1px #e3e4e6;
+    border-style: dashed hidden hidden dashed;
+    transition: .1s;
+    user-select: none;
+}
+
+footer section div:hover {
+    box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+footer section div:active {
+    padding: 5px 5px;
+    box-shadow: 2.5px 2.5px 5px 0px rgba(0, 0, 0, 0.5);
+}
