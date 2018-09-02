@@ -40,17 +40,41 @@
             <section>Lost time</section>
         </section>
         <!-- content section -->
-        <section class="content"></section>
+        <section class="content">
+            <section class="day-summary">
+                <section id="date">00.00.00</section>
+                <section class="schedule">
+                    <section id="start-time">00:00:00</section>
+                    <section id="end-time">00:00:20</section>
+                    <section id="start-time-tracker">00:00:00</section>
+                    <section id="end-time-tracker">00:00:00</section>
+                    <section id="lost-time">00:00:00</section>
+                </section>
+                <section class="schedule">
+                    <section id="start-time">00:00:00</section>
+                    <section id="end-time">00:00:20</section>
+                    <section id="start-time-tracker">00:00:00</section>
+                    <section id="end-time-tracker">00:00:00</section>
+                    <section id="lost-time">00:00:00</section>
+                </section>
+            </section>
+        </section>
     </main>
     <!-- footer -->
     <footer>
         <aside>Powered by Dmytro Morhun</aside>
         <section>
-            <div id="add-time-row"><span> + </span>Add new time row<span> + </span></div>
+            <div id="add-time-row">Add new time row</div>
         </section>
-        <aside>Current time 19:56:20</aside>
+        <aside>Current time <time>19:56:20</time></aside>
     </footer>
 </body>
 <!-- scripts -->
+<script src="./scripts/helpers/document-elements-helper.js"></script>
+<script src="./scripts/events.js"></script>
+<script src="./scripts/helpers/common-helper.js"></script>
+<script src="./scripts/ui-interaction.js"></script>
+<script src="./scripts/file.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
 </html>

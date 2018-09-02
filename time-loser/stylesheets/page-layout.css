@@ -67,7 +67,7 @@ main .header section {
     border-left: 1px solid #c2c3c5;
 }
 
-main .content .day-summary .date {
+main .content .day-summary #date {
     padding-top: 25px;
 }
 
@@ -95,6 +95,7 @@ footer {
 
 footer aside {
     padding: 30px;
+    width: 20%;
 }
 
 footer section {
