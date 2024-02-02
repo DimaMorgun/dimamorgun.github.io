@@ -1,0 +1,210 @@
+@keyframes rotate-around-planet {
+    0% {
+        bottom: calc(50% - 15px);
+        left: -5px;
+        z-index: 4;
+    }
+    10% {
+        bottom: calc(5% - 15px);
+        z-index: 4;
+    }
+    25% {
+        bottom: -5px;
+        left: calc(50% - 15px);
+        z-index: 4;
+    }
+    40% {
+        bottom: calc(5% - 15px);
+        z-index: 4;
+    }
+    50% {
+        bottom: calc(50% - 15px);
+        left: calc(100% - 5px);
+        z-index: 4;
+    }
+    60% {
+        bottom: calc(95% - 15px);
+        z-index: 1;
+    }
+    75% {
+        bottom: calc(100% - 15px);
+        left: calc(50% - 5px);
+        z-index: 1;
+    }
+    90% {
+        bottom: calc(95% - 15px);
+        z-index: 1;
+    }
+    100% {
+        bottom: calc(50% - 15px);
+        left: -5px;
+        z-index: 4;
+    }
+}
+
+#satellite-around-planet {
+    position: relative;
+    margin: 0 auto;
+    width: 200px;
+    height: 200px;
+    box-shadow: inset 0px 0px 250px 0 #001f3f;
+    border-radius: 50%;
+}
+
+#orbit-back {
+    position: absolute;
+    width: 175px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid black;
+    border-left: none;
+    border-bottom: none;
+    top: calc(50% - 15px);
+    left: calc(50% - 87.5px);
+}
+
+#planet {
+    position: relative;
+    margin: 0 auto;
+    width: 80px;
+    height: 80px;
+    background-color: rgb(78, 187, 255);
+    box-shadow: 0px 0px 15px 5px rgb(154, 216, 255);
+    border-radius: 50%;
+    top: calc(50% - 40px);
+    z-index: 2;
+}
+
+#orbit-front {
+    position: absolute;
+    width: 175px;
+    height: 30px;
+    top: calc(50% - 15px);
+    left: calc(50% - 87.5px);
+    border-radius: 50%;
+    border: 2px solid black;
+    border-top: none;
+    border-right: none;
+    z-index: 3;
+}
+
+#satellite {
+    position: absolute;
+    width: 10px;
+    height: 30px;
+    bottom: -15px;
+    left: calc(50% - 5px);
+    animation: rotate-around-planet linear infinite;
+    animation-duration: 6s;
+    transform: rotate(45deg);
+    z-index: 4;
+}
+
+#dock-station {
+    position: relative;
+    padding: 3px;
+    background-color: rgb(71, 71, 71);
+    border-radius: 4px 4px 0 0;
+}
+
+#receiver {
+    position: relative;
+    width: 30px;
+    height: 1px;
+    left: -13px;
+    background-color: black;
+}
+
+#left-light {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    background-color: rgba(0, 26, 255, 0.75);
+    box-shadow: 0px 0px 10px 5px rgba(255, 0, 0, 0.75);
+    left: 0
+}
+
+#right-light {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    background-color: rgba(255, 0, 0, 0.75);
+    box-shadow: 0px 0px 10px 5px rgba(0, 26, 255, 0.75);
+    right: 0;
+}
+
+#main-module {
+    position: relative;
+    height: 15px;
+    width: 6px;
+    background-color: rgb(255, 217, 185);
+    left: calc(50% - 3px);
+}
+
+#main-module::before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    border: 5px solid rgb(255, 217, 185);
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+    top: 0;
+    left: -2px;
+}
+
+#main-module::after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    border: 5px solid rgb(255, 217, 185);
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-left-color: transparent;
+    bottom: 0;
+    left: -2px;
+}
+
+#left-solar-panel {
+    position: absolute;
+    width: 15px;
+    height: 4px;
+    background-color: rgb(127, 255, 212);
+    top: calc(50% - 2px);
+    left: -17px;
+}
+
+#left-solar-panel::after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    border: 2px solid black;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    right: -4px;
+}
+
+#right-solar-panel {
+    position: absolute;
+    width: 15px;
+    height: 4px;
+    background-color: rgb(127, 255, 212);
+    top: calc(50% - 2px);
+    right: -17px;
+}
+
+#right-solar-panel::before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    border: 2px solid black;
+    border-top-color: transparent;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+    left: -4px;
+}
